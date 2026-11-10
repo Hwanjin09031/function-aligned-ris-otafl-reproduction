@@ -1,0 +1,166 @@
+{
+  "seed": 725,
+  "L": 4,
+  "train_hash": "c20d5365893b115ee9533378dffd18f6793ecc7cefff6cb0f8d514d4e56d4385",
+  "validation_hash": "30c6c281097c1c2a1573db0c2590b7c7523b751fb00fe4a5498264791d06db52",
+  "pool_hash": "65e6f63e917baa0621dc83e76f1e034a6e24fb7a6bdf732d077f6f980d0dfb5e",
+  "diagnostics": {
+    "function": {
+      "selected_pass": 1,
+      "validation_nmse": [
+        0.038358178159519696,
+        0.037334977930957185,
+        0.037334977930957185,
+        0.037334977930957185
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": -0.00472883441420348,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": -0.004488849550243561,
+          "moves": 7
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": -0.004488849550243561,
+          "moves": 0
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": -0.004488849550243561,
+          "moves": 0
+        }
+      ],
+      "greedy_indices": [
+        170,
+        165,
+        153,
+        140
+      ],
+      "book_hash": "f140d780230025cf4919466ed4b034fc6e2b6447eb786667c59e7d9c0cd23336",
+      "seconds": 75.65618518499832
+    },
+    "fairness": {
+      "selected_pass": 1,
+      "validation_nmse": [
+        0.038358178159519696,
+        0.03814334189984759,
+        0.03814334189984759,
+        0.03814334189984759
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 85.76762844460723,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 87.80149763424224,
+          "moves": 2
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 87.80149763424224,
+          "moves": 0
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 87.80149763424224,
+          "moves": 0
+        }
+      ],
+      "greedy_indices": [
+        140,
+        153,
+        170,
+        165
+      ],
+      "book_hash": "f3bf12ba5975c29c5d29a15d9e521e72de8383b5bcb46b052ac54296603791ff",
+      "seconds": 0.5430125780003436
+    },
+    "rate": {
+      "selected_pass": 2,
+      "validation_nmse": [
+        0.04330961052434619,
+        0.04189665288369142,
+        0.04186194322116743,
+        0.042256592798378206
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 31.26522564130576,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 31.665910206270695,
+          "moves": 47
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 31.774703323820226,
+          "moves": 14
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 31.789103872914303,
+          "moves": 3
+        }
+      ],
+      "greedy_indices": [
+        25,
+        61,
+        11,
+        47
+      ],
+      "book_hash": "0430865be467b0a110209bcf3480caae27ff42f6f01ceefb0f10e398609f79b3",
+      "seconds": 1.6075997400002962
+    },
+    "power": {
+      "selected_pass": 0,
+      "validation_nmse": [
+        0.04898271435192843,
+        0.057217636136662454,
+        0.06379500203049943,
+        0.06855642297829086
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 74.44686863201837,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 99.67691646671182,
+          "moves": 77
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 107.2139635736145,
+          "moves": 31
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 109.39049957600054,
+          "moves": 12
+        }
+      ],
+      "greedy_indices": [
+        113,
+        105,
+        125,
+        77
+      ],
+      "book_hash": "dce9853bba7d0f632614aca52568bcc2f26a31c7488407d350a2d6369ce937c6",
+      "seconds": 0.3919417920005799
+    }
+  },
+  "elapsed_seconds": 80.94862389564514
+}

@@ -1,0 +1,166 @@
+{
+  "seed": 723,
+  "L": 4,
+  "train_hash": "0de38b52929faf2880500af2dacb9aa88da6bb25d8bf396fa07b15434eac3454",
+  "validation_hash": "ee564abc213fe0a4c42bca14098aa23178ed9f552c92dbf430cb605dd97e2d6f",
+  "pool_hash": "3d5aa9b1be6dbe5ff625537f5203a268a416826939ace4b5529e2c5cb37dc3bf",
+  "diagnostics": {
+    "function": {
+      "selected_pass": 3,
+      "validation_nmse": [
+        0.039973108694120935,
+        0.03738689468754326,
+        0.03703032712941393,
+        0.03607049675712364
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": -0.004868659807637438,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": -0.00456024257822326,
+          "moves": 8
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": -0.004482840435140824,
+          "moves": 3
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": -0.00442147959117525,
+          "moves": 4
+        }
+      ],
+      "greedy_indices": [
+        182,
+        133,
+        187,
+        22
+      ],
+      "book_hash": "5adb8b9eb94252a122705161e00c95d9114a1a4f0594a2d33a24a0751ec0fd59",
+      "seconds": 75.85018587100058
+    },
+    "fairness": {
+      "selected_pass": 1,
+      "validation_nmse": [
+        0.04058950314902809,
+        0.039045190109885865,
+        0.039045190109885865,
+        0.039045190109885865
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 81.0689399864148,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 86.73001050707892,
+          "moves": 4
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 86.73001050707892,
+          "moves": 0
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 86.73001050707892,
+          "moves": 0
+        }
+      ],
+      "greedy_indices": [
+        182,
+        185,
+        148,
+        191
+      ],
+      "book_hash": "76288a086f1b4165d94c64659e3b9dc64c124f9b9296f91402d7921b6f4a5120",
+      "seconds": 0.5675572129985085
+    },
+    "rate": {
+      "selected_pass": 2,
+      "validation_nmse": [
+        0.04443512321506009,
+        0.04144086431184244,
+        0.041439280769161056,
+        0.04146879131687218
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 30.989370623973002,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 31.51693209465642,
+          "moves": 54
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 31.58277846210124,
+          "moves": 13
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 31.601639071899342,
+          "moves": 4
+        }
+      ],
+      "greedy_indices": [
+        55,
+        21,
+        45,
+        126
+      ],
+      "book_hash": "12e17275b621f0c4599a9afc70a4600c3fc3021433b070bb96ff0bcc27aac853",
+      "seconds": 1.2687024059996475
+    },
+    "power": {
+      "selected_pass": 0,
+      "validation_nmse": [
+        0.04911008386072623,
+        0.06109211438479138,
+        0.06819290058080468,
+        0.06796715737551912
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 74.92210815015827,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 99.81035030784503,
+          "moves": 87
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 104.7689186355434,
+          "moves": 25
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 105.92312494621056,
+          "moves": 11
+        }
+      ],
+      "greedy_indices": [
+        119,
+        126,
+        103,
+        72
+      ],
+      "book_hash": "0f4cbbb02242590eeb80a534c04a29fb45c010567e7141d12d6c40f1b43dc388",
+      "seconds": 0.33763484100200003
+    }
+  },
+  "elapsed_seconds": 80.7218337059021
+}

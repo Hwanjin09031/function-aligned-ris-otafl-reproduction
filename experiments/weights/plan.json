@@ -1,0 +1,63 @@
+{
+  "environments": [
+    1101,
+    1102,
+    1103,
+    1104,
+    1105,
+    1106,
+    1107,
+    1108,
+    1109,
+    1110
+  ],
+  "regimes": [
+    "equal",
+    "fixed_unequal",
+    "varying_unequal"
+  ],
+  "K": 8,
+  "Nr": 4,
+  "M": 64,
+  "L": 16,
+  "phase_bits": 2,
+  "train": 1000,
+  "validation": 300,
+  "test": 1000,
+  "CSI_ratio": 0.05,
+  "noise": 0.01,
+  "weights": {},
+  "secondary": [
+    "realized-channel MSE",
+    "equal-trained frozen book transfer to varying weights"
+  ],
+  "bound": {
+    "K": 3,
+    "Nr": 1,
+    "M": 1,
+    "seed": 18001,
+    "states_per_regime": 20,
+    "regimes": [
+      "equal",
+      "fixed_unequal",
+      "varying_unequal"
+    ],
+    "noise": 0.03,
+    "covariance": 0.02,
+    "L": [
+      2,
+      4,
+      8,
+      16
+    ],
+    "global_tolerance": 1e-08,
+    "max_levels": 32,
+    "max_active": 2000000,
+    "fixed_offsets_rad": [
+      0.05,
+      0.1,
+      0.2,
+      0.4
+    ]
+  }
+}

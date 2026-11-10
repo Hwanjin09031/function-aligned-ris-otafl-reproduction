@@ -1,0 +1,217 @@
+{
+  "seed": 724,
+  "L": 16,
+  "train_hash": "695223b39d037d62928563d3d1a5ba21064bc10d0bc0b411cd7433e526edaa05",
+  "validation_hash": "7da1803af76ddc96ed86334e9f33284f2224c4a9eb70a1ca5877d90e4cba573c",
+  "pool_hash": "b75f9bf864d0cfac7de61542b8029591ebfcf086c4cb8e25d78343ac14167175",
+  "pool_n": 224,
+  "diagnostics": {
+    "function": {
+      "selected_pass": 3,
+      "validation_nmse": [
+        0.02919384308317009,
+        0.02745634940418291,
+        0.027149197154210273,
+        0.026384740275085198
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": -0.003572648653529016,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": -0.003264520890797451,
+          "moves": 50
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": -0.0031688042050149845,
+          "moves": 20
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": -0.003100735558759019,
+          "moves": 21
+        }
+      ],
+      "greedy_indices": [
+        133,
+        155,
+        175,
+        2,
+        146,
+        122,
+        43,
+        160,
+        147,
+        11,
+        172,
+        132,
+        153,
+        117,
+        187,
+        140
+      ],
+      "refinement_seconds": 87.63870067099924,
+      "book_hash": "c412c845b93024a56677d92f996944f9ecdb99ec004c1187319753f7cec18c87"
+    },
+    "fairness": {
+      "selected_pass": 1,
+      "validation_nmse": [
+        0.029502361431783038,
+        0.029455670856998968,
+        0.029455670856998968,
+        0.029455670856998968
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 121.8389236578556,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 122.52049093624744,
+          "moves": 2
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 122.52049093624744,
+          "moves": 0
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 122.52049093624744,
+          "moves": 0
+        }
+      ],
+      "greedy_indices": [
+        133,
+        160,
+        146,
+        155,
+        187,
+        153,
+        172,
+        140,
+        175,
+        180,
+        2,
+        164,
+        134,
+        183,
+        157,
+        136
+      ],
+      "refinement_seconds": 0.7004015710117528,
+      "book_hash": "6b04195c263f95f3fcb540033e8b85b8550d9f6fc9242eb86d4e768ec9fa10d2"
+    },
+    "rate": {
+      "selected_pass": 1,
+      "validation_nmse": [
+        0.03286548807697326,
+        0.03256641498751267,
+        0.032979226473879124,
+        0.03301177536375853
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 31.687572722434698,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 32.13331338183218,
+          "moves": 156
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 32.27114517660868,
+          "moves": 64
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 32.35108975469795,
+          "moves": 38
+        }
+      ],
+      "greedy_indices": [
+        63,
+        61,
+        20,
+        31,
+        30,
+        8,
+        44,
+        59,
+        55,
+        121,
+        56,
+        35,
+        14,
+        10,
+        23,
+        51
+      ],
+      "refinement_seconds": 1.689481698005693,
+      "book_hash": "a04f067cbe94346728e9ce1670bf8c3188382bf10f98c0966b13e97d5f623f84"
+    },
+    "power": {
+      "selected_pass": 0,
+      "validation_nmse": [
+        0.03580860846944171,
+        0.04459774594434236,
+        0.0512842557953836,
+        0.053542718674639174
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 87.63292447532729,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 134.7365293043201,
+          "moves": 335
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 142.05753976031835,
+          "moves": 107
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 143.52212027274817,
+          "moves": 40
+        }
+      ],
+      "greedy_indices": [
+        90,
+        127,
+        74,
+        100,
+        120,
+        116,
+        93,
+        121,
+        78,
+        79,
+        82,
+        118,
+        92,
+        108,
+        99,
+        73
+      ],
+      "refinement_seconds": 0.633400532999076,
+      "book_hash": "053d023c4936b530d71341c52254dde3d7e5fc7b0376fd37d85c6cc50cab7487"
+    }
+  },
+  "elapsed_seconds": 98.90692663799564,
+  "plan_sha256": "4f89eb17f996e1998f42d35dfaf3cd03f427166468c2435908dbe3d7a34a56c8",
+  "books_sha256": "a47b9ccd0a69173361e4fb1a48a6e495723d0199f14915f31b49535a6504178d"
+}

@@ -1,0 +1,184 @@
+{
+  "pairs": [
+    [
+      721,
+      971
+    ],
+    [
+      721,
+      974
+    ],
+    [
+      721,
+      976
+    ],
+    [
+      722,
+      972
+    ],
+    [
+      722,
+      975
+    ],
+    [
+      722,
+      977
+    ],
+    [
+      723,
+      973
+    ],
+    [
+      723,
+      978
+    ],
+    [
+      723,
+      979
+    ],
+    [
+      724,
+      980
+    ],
+    [
+      724,
+      981
+    ],
+    [
+      724,
+      982
+    ],
+    [
+      725,
+      983
+    ],
+    [
+      725,
+      984
+    ],
+    [
+      725,
+      985
+    ],
+    [
+      726,
+      986
+    ],
+    [
+      726,
+      987
+    ],
+    [
+      726,
+      988
+    ],
+    [
+      727,
+      989
+    ],
+    [
+      727,
+      990
+    ],
+    [
+      727,
+      991
+    ],
+    [
+      728,
+      992
+    ],
+    [
+      728,
+      993
+    ],
+    [
+      728,
+      994
+    ],
+    [
+      729,
+      995
+    ],
+    [
+      729,
+      996
+    ],
+    [
+      729,
+      997
+    ],
+    [
+      730,
+      998
+    ],
+    [
+      730,
+      999
+    ],
+    [
+      730,
+      1000
+    ]
+  ],
+  "methods": [
+    "function",
+    "fairness",
+    "rate",
+    "ao_qDFT65"
+  ],
+  "tau": [
+    2000,
+    50000
+  ],
+  "rounds": 100,
+  "targets": [
+    0.7,
+    0.75,
+    0.8
+  ],
+  "evaluation_interval": 5,
+  "target_rules": [
+    "first measured crossing",
+    "two consecutive evaluated points at or above target; second evaluation is stopping round"
+  ],
+  "pilot_power": 1.0,
+  "data_noise_variance": 0.01,
+  "pilot_despread_noise_variance": 0.00125,
+  "pilots": {
+    "function": 128,
+    "fairness": 128,
+    "rate": 128,
+    "ao_qDFT65": 520
+  },
+  "K": 8,
+  "Nr": 4,
+  "M": 64,
+  "L": 16,
+  "data_phase_bits": 2,
+  "metadata_uses_per_block": 256,
+  "payload_real_coordinates": 38282,
+  "exclusions": [
+    "feedback",
+    "downlink model broadcast",
+    "RIS switching",
+    "computation",
+    "unused slots in final block"
+  ],
+  "workers": 8,
+  "threads_per_worker": 1,
+  "books_sha256": {},
+  "data_sha256": {},
+  "environment_seeds": [
+    721,
+    722,
+    723,
+    724,
+    725,
+    726,
+    727,
+    728,
+    729,
+    730
+  ]
+}

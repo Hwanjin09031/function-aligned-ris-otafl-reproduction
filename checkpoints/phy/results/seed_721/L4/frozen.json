@@ -1,0 +1,166 @@
+{
+  "seed": 721,
+  "L": 4,
+  "train_hash": "f0180bfa703b8231b4a7cfdde28e53c45eeac65f805ae03a2675dfe3489e23e5",
+  "validation_hash": "5dc1df6584ef6107b7ff868f67c275948962b9afd6993b0bc44f1a32332f5c2f",
+  "pool_hash": "9507f077cbe6b30d8bcafefba5c13f4b3de72d6c2d095e8abd9a85ea2a7aad84",
+  "diagnostics": {
+    "function": {
+      "selected_pass": 3,
+      "validation_nmse": [
+        0.03962800344483764,
+        0.03632470831214986,
+        0.03545515160416305,
+        0.03495816433385972
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": -0.004775629302441969,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": -0.004314682876542302,
+          "moves": 14
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": -0.00421964886827777,
+          "moves": 4
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": -0.0041750201874692335,
+          "moves": 2
+        }
+      ],
+      "greedy_indices": [
+        43,
+        182,
+        27,
+        151
+      ],
+      "book_hash": "22baa7f817a10e1b83cf639b2aa1778a5c6f97640a5f6b8a93ce1a4fe1ea519b",
+      "seconds": 76.49723720400289
+    },
+    "fairness": {
+      "selected_pass": 2,
+      "validation_nmse": [
+        0.04024965270221211,
+        0.040121056297008316,
+        0.03992886488331265,
+        0.03992886488331265
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 82.68961972008113,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 83.33161610879552,
+          "moves": 1
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 83.932482844716,
+          "moves": 1
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 83.932482844716,
+          "moves": 0
+        }
+      ],
+      "greedy_indices": [
+        43,
+        138,
+        182,
+        149
+      ],
+      "book_hash": "05db8f9feaed0cc55fe6deac55837e16fe7c9fe23b70b40564e667f84e29f392",
+      "seconds": 0.5619380569987698
+    },
+    "rate": {
+      "selected_pass": 0,
+      "validation_nmse": [
+        0.043028096638263735,
+        0.04321218886362822,
+        0.04373881541603835,
+        0.04375574015060912
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 30.887661065744272,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 31.331345723449253,
+          "moves": 49
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 31.431786581869112,
+          "moves": 16
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 31.445539671784182,
+          "moves": 4
+        }
+      ],
+      "greedy_indices": [
+        55,
+        56,
+        42,
+        25
+      ],
+      "book_hash": "b4c36d4dc9898188ca01bf0ab4f186695c77b82ee9770efc540c4698cba33039",
+      "seconds": 1.3884259540027415
+    },
+    "power": {
+      "selected_pass": 0,
+      "validation_nmse": [
+        0.047811623514048725,
+        0.05841578087884894,
+        0.06763794149136265,
+        0.07408680263910339
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 73.30753621200242,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 103.94778098581382,
+          "moves": 83
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 110.23940151798888,
+          "moves": 31
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 112.32000872693504,
+          "moves": 17
+        }
+      ],
+      "greedy_indices": [
+        119,
+        121,
+        67,
+        105
+      ],
+      "book_hash": "de52a0ad42392458eaba039d9672c1a57a67b6a32663b24e1942d6369dc21b22",
+      "seconds": 0.3628286310013209
+    }
+  },
+  "elapsed_seconds": 81.3694658279419
+}

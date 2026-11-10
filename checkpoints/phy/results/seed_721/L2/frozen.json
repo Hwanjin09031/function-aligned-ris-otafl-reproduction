@@ -1,0 +1,158 @@
+{
+  "seed": 721,
+  "L": 2,
+  "train_hash": "f0180bfa703b8231b4a7cfdde28e53c45eeac65f805ae03a2675dfe3489e23e5",
+  "validation_hash": "5dc1df6584ef6107b7ff868f67c275948962b9afd6993b0bc44f1a32332f5c2f",
+  "pool_hash": "9507f077cbe6b30d8bcafefba5c13f4b3de72d6c2d095e8abd9a85ea2a7aad84",
+  "diagnostics": {
+    "function": {
+      "selected_pass": 2,
+      "validation_nmse": [
+        0.047542686703405494,
+        0.04065655457376408,
+        0.04007436895935259,
+        0.04007436895935259
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": -0.005776999454519659,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": -0.004901698909559036,
+          "moves": 16
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": -0.004794244258517135,
+          "moves": 3
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": -0.004794244258517135,
+          "moves": 0
+        }
+      ],
+      "greedy_indices": [
+        43,
+        182
+      ],
+      "book_hash": "0cf96170f55397c4a124027f41ba349e30c1e25ce0b358d869d09773576527fd",
+      "seconds": 77.44526402700285
+    },
+    "fairness": {
+      "selected_pass": 1,
+      "validation_nmse": [
+        0.047954567848540686,
+        0.043577618758132076,
+        0.043577618758132076,
+        0.043577618758132076
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 65.01379187967908,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 74.89474025408568,
+          "moves": 9
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 74.89474025408568,
+          "moves": 0
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 74.89474025408568,
+          "moves": 0
+        }
+      ],
+      "greedy_indices": [
+        43,
+        138
+      ],
+      "book_hash": "6e3eb8cd708fa7c1f788063b0edf02bcb6beeee25c6137bfa32b442b65e689aa",
+      "seconds": 0.5375584659996093
+    },
+    "rate": {
+      "selected_pass": 1,
+      "validation_nmse": [
+        0.05355300803756362,
+        0.05059306103242296,
+        0.05089895477826119,
+        0.05061139431390511
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 30.30134211625176,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 30.748284149344325,
+          "moves": 32
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 30.94303668997581,
+          "moves": 15
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 30.964112244160614,
+          "moves": 4
+        }
+      ],
+      "greedy_indices": [
+        55,
+        56
+      ],
+      "book_hash": "85f2fc04b04cf602769943c73ba878642345a2118a18181c04a47d232f209043",
+      "seconds": 1.750689036998665
+    },
+    "power": {
+      "selected_pass": 0,
+      "validation_nmse": [
+        0.05847817740696926,
+        0.061850928748328635,
+        0.06655569894813174,
+        0.07453045502488836
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 58.35347559407429,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 72.4659193918115,
+          "moves": 45
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 75.99556649846697,
+          "moves": 23
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 79.68627135527628,
+          "moves": 17
+        }
+      ],
+      "greedy_indices": [
+        119,
+        121
+      ],
+      "book_hash": "7da61b0af9feeb097ace1ff516d7d439637e85440677548ed07f7eb947f8f561",
+      "seconds": 0.4132614709997142
+    }
+  },
+  "elapsed_seconds": 82.11782836914062
+}

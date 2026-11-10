@@ -1,0 +1,166 @@
+{
+  "seed": 730,
+  "L": 4,
+  "train_hash": "af234ac15d85ab6219a6176a2c3fe52ab0befb00e301e1ef1150676242bf7ac0",
+  "validation_hash": "2d31ab1e72ad7131b3e385e8a59e53f4182d89b4d30b35461a775cf156c3603e",
+  "pool_hash": "ce3b80de754e56a8b80d90deab212bc928b2b36dafac7e7e43a2ebb4a4833d2c",
+  "diagnostics": {
+    "function": {
+      "selected_pass": 1,
+      "validation_nmse": [
+        0.036770195571088585,
+        0.03555166696902505,
+        0.03555166696902505,
+        0.03555166696902505
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": -0.004641630627022378,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": -0.004378994451688818,
+          "moves": 8
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": -0.004378994451688818,
+          "moves": 0
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": -0.004378994451688818,
+          "moves": 0
+        }
+      ],
+      "greedy_indices": [
+        52,
+        35,
+        154,
+        171
+      ],
+      "book_hash": "c4ccdc49d627cf5a744b08b12933890375cf7246860c565ba70ab2a84ecd34fe",
+      "seconds": 79.44099774200004
+    },
+    "fairness": {
+      "selected_pass": 0,
+      "validation_nmse": [
+        0.03807104283286814,
+        0.03807104283286814,
+        0.03807104283286814,
+        0.03807104283286814
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 85.02740060602339,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 85.02740060602339,
+          "moves": 0
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 85.02740060602339,
+          "moves": 0
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 85.02740060602339,
+          "moves": 0
+        }
+      ],
+      "greedy_indices": [
+        173,
+        52,
+        154,
+        142
+      ],
+      "book_hash": "b55f88fdd75c277ca7052af2f50ba5ef789ee35d19ef5be281121d8dfa6e12e3",
+      "seconds": 0.5145627849997254
+    },
+    "rate": {
+      "selected_pass": 3,
+      "validation_nmse": [
+        0.03909656528025125,
+        0.03920793549609757,
+        0.03982381852604115,
+        0.038794853168786544
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 31.018607196992097,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 31.41166932457938,
+          "moves": 40
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 31.47992102539166,
+          "moves": 10
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 31.555124707889007,
+          "moves": 10
+        }
+      ],
+      "greedy_indices": [
+        53,
+        10,
+        35,
+        34
+      ],
+      "book_hash": "b33be2265ddf0e08e8698430c44402ce61f604e4cfd2982b99ab06e3fdd99f88",
+      "seconds": 1.408084147999034
+    },
+    "power": {
+      "selected_pass": 0,
+      "validation_nmse": [
+        0.05029408610337488,
+        0.05824282053103918,
+        0.0590354445878126,
+        0.05936979122575034
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 72.36587951121632,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 99.4726294206186,
+          "moves": 76
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 102.02736930055535,
+          "moves": 23
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 102.73401861749741,
+          "moves": 7
+        }
+      ],
+      "greedy_indices": [
+        104,
+        75,
+        120,
+        80
+      ],
+      "book_hash": "d52d690bc22fca7a75478603c4d55b45ec01298c003a674b6a8bc0489d55a2ce",
+      "seconds": 0.4138838790022419
+    }
+  },
+  "elapsed_seconds": 84.34099841117859
+}

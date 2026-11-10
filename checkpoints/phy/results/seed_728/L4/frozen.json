@@ -1,0 +1,166 @@
+{
+  "seed": 728,
+  "L": 4,
+  "train_hash": "2747f5aace64a5376d608c7c23b19ef1aaf8700e6e4dea0c00e3d8a12086aabf",
+  "validation_hash": "794c5f621bced0c785930069b2e09a543a69c20d4681e72550ca97ef1d321ed6",
+  "pool_hash": "bc52db5206eacca36917ad833b6d9b79acd2d483744201f5dcafeee8b67e96f6",
+  "diagnostics": {
+    "function": {
+      "selected_pass": 2,
+      "validation_nmse": [
+        0.03790859860080068,
+        0.03552436623870307,
+        0.03489754273316361,
+        0.03489754273316361
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": -0.004591857793912577,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": -0.004229014307139562,
+          "moves": 13
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": -0.0041454310161424986,
+          "moves": 3
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": -0.0041454310161424986,
+          "moves": 0
+        }
+      ],
+      "greedy_indices": [
+        137,
+        193,
+        16,
+        139
+      ],
+      "book_hash": "326926f2efca69c6ed138a34964a4254ef212cb63e846c88015ee288c60a1e2d",
+      "seconds": 78.54063021100228
+    },
+    "fairness": {
+      "selected_pass": 2,
+      "validation_nmse": [
+        0.037572190633816165,
+        0.037369775629769966,
+        0.03717220920911299,
+        0.03717220920911299
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 88.75140412639325,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 92.004594977877,
+          "moves": 3
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 93.174699354707,
+          "moves": 1
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 93.174699354707,
+          "moves": 0
+        }
+      ],
+      "greedy_indices": [
+        137,
+        139,
+        193,
+        133
+      ],
+      "book_hash": "8f0419e3546758312bee4297767dd8b6dc4a6832afa8f46ebd0de65068fc7789",
+      "seconds": 0.5777451630019641
+    },
+    "rate": {
+      "selected_pass": 3,
+      "validation_nmse": [
+        0.0443632909604424,
+        0.042451902261794947,
+        0.042018132788207874,
+        0.0420149531144854
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 31.170587036437013,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 31.62342546806011,
+          "moves": 51
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 31.711258696538664,
+          "moves": 14
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 31.726869541009446,
+          "moves": 5
+        }
+      ],
+      "greedy_indices": [
+        43,
+        62,
+        73,
+        11
+      ],
+      "book_hash": "a8474d1eccb221b2b10b86b5295fe1e1f07668d7919df37f7d6271fc9c112b5d",
+      "seconds": 1.2442250349995447
+    },
+    "power": {
+      "selected_pass": 0,
+      "validation_nmse": [
+        0.0513226595976775,
+        0.06596620255704226,
+        0.06632284611535366,
+        0.06662755246646662
+      ],
+      "training": [
+        {
+          "pass": 0,
+          "mean_best_utility": 76.67932549371524,
+          "moves": 0
+        },
+        {
+          "pass": 1,
+          "mean_best_utility": 107.09257951907806,
+          "moves": 80
+        },
+        {
+          "pass": 2,
+          "mean_best_utility": 109.3350093011034,
+          "moves": 18
+        },
+        {
+          "pass": 3,
+          "mean_best_utility": 109.60204709872829,
+          "moves": 5
+        }
+      ],
+      "greedy_indices": [
+        80,
+        127,
+        73,
+        65
+      ],
+      "book_hash": "335baa592b96de55e7c9ae9fc7578e6e6e54ea6be1b99234b6f0482472b1d00c",
+      "seconds": 0.39339690799897653
+    }
+  },
+  "elapsed_seconds": 83.33478140830994
+}

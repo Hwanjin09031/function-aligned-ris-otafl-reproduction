@@ -1,0 +1,45 @@
+{
+  "environment_seeds": [
+    1201,
+    1202,
+    1203,
+    1204,
+    1205,
+    1206,
+    1207,
+    1208,
+    1209,
+    1210
+  ],
+  "receive_antennas": [
+    2,
+    4,
+    8
+  ],
+  "new_receive_antennas": [
+    2,
+    4,
+    8
+  ],
+  "K": 8,
+  "M": 64,
+  "L": 16,
+  "bits": 2,
+  "training_states": 1000,
+  "training_generation_count": 2000,
+  "validation_states": 300,
+  "test_states": 1000,
+  "train_stream": 1,
+  "validation_stream": 2,
+  "test_stream": 3,
+  "noise": 0.01,
+  "uncertainty": 0.05,
+  "methods": [
+    "function",
+    "fairness",
+    "rate",
+    "power"
+  ],
+  "outer_sweeps": 3,
+  "inner_pairs": 20
+}

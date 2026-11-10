@@ -1,0 +1,45 @@
+{
+  "start_utc": "2026-10-28T18:29:24Z",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+  "affinity_before": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "affinity_during": [
+    0
+  ],
+  "thread_pools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "plan_sha256": "87d7126eafc6cf3c639db5da911ed0dc7e8739b6cec5564a6690cd3c23826c2b",
+  "benchmark_sha256": "83a43eb71eccbf63f86d99b19558f3cfdfab2e2fbefe1e2bfe3b38c0495febb6",
+  "load_average_at_start": [
+    0.169921875,
+    0.26025390625,
+    1.2607421875
+  ],
+  "finish_utc": "2026-10-28T18:34:49Z",
+  "load_average_at_end": [
+    1.0,
+    0.77392578125,
+    1.1787109375
+  ]
+}

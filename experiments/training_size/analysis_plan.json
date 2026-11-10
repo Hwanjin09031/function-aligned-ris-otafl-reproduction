@@ -1,0 +1,45 @@
+{
+  "environment_seeds": [
+    1201,
+    1202,
+    1203,
+    1204,
+    1205,
+    1206,
+    1207,
+    1208,
+    1209,
+    1210
+  ],
+  "training_sizes": [
+    250,
+    500,
+    1000,
+    2000
+  ],
+  "M": 64,
+  "Nr": 4,
+  "K": 8,
+  "L": 16,
+  "bits": 2,
+  "noise": 0.01,
+  "uncertainty": 0.05,
+  "train_stream": 1,
+  "validation_stream": 2,
+  "test_stream": 3,
+  "validation_states": 300,
+  "test_states": 1000,
+  "methods": [
+    "function",
+    "fairness",
+    "rate",
+    "power"
+  ],
+  "outer_sweeps": {
+    "function": 10,
+    "fairness": 3,
+    "rate": 3,
+    "power": 3
+  },
+  "inner_pairs": 20
+}
