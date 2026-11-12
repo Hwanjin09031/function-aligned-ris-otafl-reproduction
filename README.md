@@ -89,4 +89,4 @@ The first runs small channel, optimization, evaluation, and GNN-update checks. T
 
 PHY statistics first average states within each of ten environments. FL trajectories are averaged within environments. The GNN training-size comparison averages three initializations within each of three environments. Timing repeats are technical measurements.
 
-Public release and the original-code license are pending author approval. MNIST is third-party data; see `THIRD_PARTY.md`.
+The code in this repository is publicly available. No license has been specified for the original code. MNIST is third-party data; see `THIRD_PARTY.md`.
